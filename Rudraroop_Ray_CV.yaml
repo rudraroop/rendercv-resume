@@ -19,31 +19,32 @@ cv:
         end_date: present
         location: Dublin, Ireland
         highlights:
-          - Built an automated Java migration platform upgrading **20,000** Amazon services from JDK8 to JDK17/ 21
-          - Improved migration success rates from **33%→51%** (JDK17) and **26%→48%** (JDK21) by implementing AST-based LLM code transforms and deterministic rewrites in OpenRewrite / ast-grep
-          - Led the development of a performance analysis system that processes production profiling data to identify hot paths and recommend optimizations; delivered **$8M/year** in cost savings for AWS EC2
-          - Integrated performance benchmarking automation into Amazon’s development workflow for pre-merge regression detection; adopted by **300+** teams within 2 months
-          - Identified a **garbage collection regression in OpenJDK25** impacting Amazon Search using low-level profiling tools
+          - Developed an automated migration platform which upgraded **20,000+ Java services** across Amazon from JDK8 to JDK17/21
+          - Raised Java migration success rates from **33%→51%** (JDK17) and **26%→48%** (JDK21) by contributing **140+** deterministic transforms and redesigning LLM usage around the Java syntax-tree
+          - Shipped a flamegraph analysis agent via Amazon Kiro (**1,500+ developers**); extended into a full performance agent with JMH benchmark generation and pre-merge regression detection (**300+ teams**)
+          - Triaged a latency-causing request handling path for EC2 using performance tooling, delivering **$8M/year** in estimated savings
+          - Identified a **parallel GC defect in OpenJDK** causing ineffective young GC cycles in Amazon Search; contributing fix at JDK tip
       - company: Senior Software Engineer / Consultant Specialist
         position: HSBC
         start_date: 2021-06
         end_date: 2024-12
         location: Pune, India
         highlights:
-          - Led development of a sustainability governance data extraction platform, reducing tax exposure by **$12M**
-          - Developed a GenAI application for KYC (customer-verification) onboarding, automating **25%** of support responses
+          - Led development of an ESG data extraction platform for sustainability governance, reducing tax exposure by **$12M**
+          - Built a GenAI chatbot for KYC onboarding, resolving **25%** of support chats and reducing call volume to human agents
           - Designed a distributed batch processing system handling **1,200 documents/hour** for ML-based document extraction
           - Promotion from **Senior Software Engineer** to **Consultant Specialist** in October 2023
           - Designed and developed microservices used to approve corporate loans worth **$60 million**
-          - Led development of a mobile-based agricultural bookkeeping platform adopted in a pilot with **1,000 farmers**
+          - Led development of a mobile agricultural bookkeeping platform as part of HSBC's CSR initiative; piloted with **1,000 farmers**
       - company: Graduate Research Assistant (Part-time)
         position: IIIT Delhi
         start_date: 2023-07
         end_date: 2024-03
         location: Remote, India
         highlights:
-          - Led a research team of 3 on the use of Reinforcement Learning agents in theoretical mathematics, under Prof. Rajiv Raman
-          - Built Deep NNs in TensorFlow, developed a [novel method](https://github.com/rudraroop/RL-Constructions-Combinatorics-Disprove) for graph representation of geometric states, and implemented a dynamic programming-based reward function for RL agent training. Achieved **breakthrough in disproving a theorem**
+          - Researched the use of RL in combinatorial geometry under [Prof. Rajiv Raman](https://www.iiitd.ac.in/rajiv), supervising 2 undergraduate researchers
+          - Developed a [novel graph representation](https://github.com/rudraroop/RL-Constructions-Combinatorics-Disprove) of geometric states and a dynamic programming-based reward function for RL training
+          - Facilitated a **breakthrough in disproving a theorem** in combinatorial geometry using Deep Reinforcement Learning
     education:
       - institution: IIIT Delhi (Indraprastha Institute of Information Technology)
         area: Computer Science & Applied Mathematics
@@ -57,22 +58,38 @@ cv:
         date: 2021
     skills:
       - label: Programming Languages
-        details: Python, Java, C++, CUDA
-      - label: Frameworks, Tools & Protocols
-        details: AWS, Nginx, TensorFlow, REST, Async-Profiler, MongoDB, JFR, ast-grep, FastAPI, SpringBoot, SQL, Numpy, MCP , LangChain, Kafka, git, ELK, Postman,  Claude
+        details: Python, Java, C++
+      - label: Frameworks / Tools
+        details: AWS, FastAPI, Nginx, SpringBoot, LangChain, TensorFlow, Kafka, MongoDB, SQL, Numpy, OpenRewrite, ast-grep, REST, MCP, git
+      - label: Performance & Observability
+        details: Async-Profiler, JFR, JMH, cProfile, line_profiler, memory_profiler, CUDA
       - label: Interests
-        details: JVM Performance, Multi-Agent AI Systems, Reinforcement Learning, Distributed Computing, Algorithmic optimization
+        details: JVM Performance, Multi-Agent AI Systems, Reinforcement Learning, Distributed Computing, Algorithmic Optimization
 design:
   theme: engineeringresumes
   page:
-    top_margin: 0.5in
-    left_margin: 0.4in
-    right_margin: 0.4in
+    size: us-letter
+    top_margin: 0.4in
+    left_margin: 0.35in
+    right_margin: 0.35in
     show_top_note: false
     show_footer: false
-    bottom_margin: 0.5in
+    bottom_margin: 0.4in
   typography:
-    line_spacing: 0.9em
+    line_spacing: 0.95em
+  header:
+    space_below_name: 0.5cm
+    space_below_headline: 0.5cm
+    space_below_connections: 0.7cm
+  sections:
+    allow_page_break: false
+  #   connections:
+  #     phone_number_format: national
+  #     hyperlink: true
+  #     show_icons: true
+  #     display_urls_instead_of_usernames: false
+  #     separator: ''
+  #     space_between_connections: 0.5cm
   # page:
   #   size: us-letter
   #   top_margin: 0.7in

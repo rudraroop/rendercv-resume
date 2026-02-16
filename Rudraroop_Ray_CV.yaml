@@ -64,7 +64,7 @@ cv:
       - label: Performance & Observability
         details: Async-Profiler, JFR, JMH, cProfile, line_profiler, memory_profiler
       - label: Interests
-        details: Distributed Systems, Performance Engineering, Developer Tooling, Algorithmic Optimization
+        details: Distributed Systems, Performance Engineering, Developer Tooling, Multi-Agent AI, Algorithmic Optimization
 design:
   theme: engineeringresumes
   page:

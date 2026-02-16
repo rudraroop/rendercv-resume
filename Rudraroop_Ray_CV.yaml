@@ -30,12 +30,12 @@ cv:
         end_date: 2024-12
         location: Pune, India
         highlights:
-          - Led development of an ESG data extraction platform for sustainability governance, reducing tax exposure by **$12M**
+          - Led development of an ESG data extraction platform for governance documents, reducing tax exposure by **$12M**
           - Built a GenAI chatbot for KYC onboarding, resolving **25%** of support chats and reducing call volume to human agents
-          - Designed a distributed batch processing system handling **1,200 documents/hour** for ML-based document extraction
+          - Designed a distributed batch processing system handling **1,200 documents/hour** for ML inference
+          - Profiled and resolved a memory leak in a FastAPI backend using cProfile and memory_profiler, reducing response times by **68%**
           - Promotion from **Senior Software Engineer** to **Consultant Specialist** in October 2023
           - Designed and developed microservices used to approve corporate loans worth **$60 million**
-          - Led development of a mobile agricultural bookkeeping platform as part of HSBC's CSR initiative; piloted with **1,000 farmers**
       - company: Graduate Research Assistant (Part-time)
         position: IIIT Delhi
         start_date: 2023-07

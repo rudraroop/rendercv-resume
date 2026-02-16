@@ -80,6 +80,8 @@ design:
     space_below_name: 0.5cm
     space_below_headline: 0.5cm
     space_below_connections: 0.7cm
+    connections:
+      phone_number_format: international
   sections:
     allow_page_break: false
   #   connections:

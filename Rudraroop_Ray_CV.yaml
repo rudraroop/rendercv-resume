@@ -64,7 +64,7 @@ cv:
       - label: Performance & Observability
         details: Async-Profiler, JFR, JMH, cProfile, line_profiler, memory_profiler, CUDA
       - label: Interests
-        details: Performance Engineering, Multi-Agent AI Systems, Reinforcement Learning, Distributed Computing, Algorithmic Optimization
+        details: JVM Performance, Multi-Agent AI Systems, Reinforcement Learning, Distributed Computing, Algorithmic Optimization
 design:
   theme: engineeringresumes
   page:

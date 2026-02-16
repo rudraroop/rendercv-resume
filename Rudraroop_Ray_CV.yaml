@@ -31,7 +31,6 @@ cv:
         location: Pune, India
         highlights:
           - Led development of an ESG data extraction platform for governance documents, reducing tax exposure by **$12M**
-          - Built a GenAI chatbot for KYC onboarding, resolving **25%** of support chats and reducing call volume to human agents
           - Designed a distributed batch processing system handling **1,200 documents/hour** for ML inference
           - Profiled and resolved a memory leak in a FastAPI backend using cProfile and memory_profiler, reducing response times by **68%**
           - Promotion from **Senior Software Engineer** to **Consultant Specialist** in October 2023
@@ -60,11 +59,11 @@ cv:
       - label: Programming Languages
         details: Python, Java, C++
       - label: Frameworks / Tools
-        details: AWS, FastAPI, Nginx, SpringBoot, LangChain, TensorFlow, Kafka, MongoDB, SQL, Numpy, OpenRewrite, ast-grep, REST, MCP, git
+        details: AWS, FastAPI, Nginx, SpringBoot, Kafka, MongoDB, SQL, REST, git
       - label: Performance & Observability
-        details: Async-Profiler, JFR, JMH, cProfile, line_profiler, memory_profiler, CUDA
+        details: Async-Profiler, JFR, JMH, cProfile, line_profiler, memory_profiler
       - label: Interests
-        details: JVM Performance, Multi-Agent AI Systems, Reinforcement Learning, Distributed Computing, Algorithmic Optimization
+        details: Performance Engineering, Benchmarking, Distributed Systems, Algorithmic Optimization
 design:
   theme: engineeringresumes
   page:
